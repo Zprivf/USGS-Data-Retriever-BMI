@@ -3,12 +3,11 @@ BMI USGS Streamflow Data Retriever
 This repository provides a Basic Model Interface (BMI) implementation for retrieving daily streamflow data from the USGS National Water Information System (https://waterdata.usgs.gov/nwis).
 
 Features:
-
 Retrieves daily streamflow data for any specified station and date range.
 Compatible with any BMI-wrapped model for seamless integration into existing modeling workflows.
 Standardized interface for easy adoption and use.
-Benefits:
 
+Benefits:
 Simplifies access to USGS streamflow data within your modeling frameworks.
 Promotes interoperability between models and data sources.
 Reduces development time by leveraging the established BMI standard.
@@ -19,7 +18,6 @@ Configure: Specify the desired USGS station ID and date range in your model's co
 Run: The BMI retrieves the requested data and makes it available to your model.
 Further Resources:
 
-BMI Documentation: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2811109/
 USGS National Water Information System: https://waterdata.usgs.gov/nwis
 Please note: This repository is provided for educational and research purposes only. 
 
